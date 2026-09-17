@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neuroflyatlas.pages.dev/sitemap.xml
