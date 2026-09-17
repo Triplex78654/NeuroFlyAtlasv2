@@ -1,0 +1,10 @@
+# Pages légales accessibles sans extension (et alias courants)
+/confidentialite /confidentialite.html 200
+/rgpd /confidentialite.html 200
+/privacy /confidentialite.html 200
+/mentions-legales /mentions-legales.html 200
+/cgu /mentions-legales.html 200
+/terms /mentions-legales.html 200
+
+# Ancien comportement SPA retiré : les URLs inconnues renvoient désormais
+# un vrai statut 404 avec 404.html (meilleur SEO, moins de confusion).
