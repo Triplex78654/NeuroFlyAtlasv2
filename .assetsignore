@@ -1,0 +1,4 @@
+# Fichiers exclus de l'upload Cloudflare Pages/Wrangler
+.git/
+wrangler.jsonc
+wrangler.toml
