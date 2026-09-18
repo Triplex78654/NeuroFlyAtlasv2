@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from './vendor/three.module.js';
 import { decodePairs, combinePairs, fetchRelated } from './synapse-source.js';
 const $=id=>document.getElementById(id),fmt=n=>n.toLocaleString('fr-FR');
 const NAMES={AL:'Lobe antennaire',ME:'Médulla',LA:'Lamina',LO:'Lobula',LOP:'Plaque lobulaire',AME:'Médulla accessoire',AOTU:'Tubercule optique antérieur',CA:'Calice',PED:'Pédoncule',EB:'Corps ellipsoïde',FB:'Corps en éventail',PB:'Pont protocérébral',NO:'Nodules',LH:'Corne latérale',GNG:'Ganglion gnathal'};

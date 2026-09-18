@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from './vendor/three.module.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
 import { createAtlasLayers } from './atlas-layers.js';
 const $=id=>document.getElementById(id),fmt=n=>n.toLocaleString('fr-FR');
